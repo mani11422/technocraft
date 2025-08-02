@@ -1,0 +1,935 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechCraft Solutions - Premier Software Development Company in Visakhapatnam | Web & App Development</title>
+    <meta name="description" content="Leading software development company in Visakhapatnam offering web development, mobile apps, custom software, SEO & digital marketing services. Trusted by 200+ businesses in Vizag.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            500: '#2563eb',
+                            600: '#1d4ed8',
+                            700: '#1e40af'
+                        },
+                        secondary: {
+                            50: '#f8fafc',
+                            500: '#64748b',
+                            700: '#334155',
+                            900: '#1e293b'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif']
+                    }
+                }
+            }
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans bg-gray-50 text-gray-900">
+    
+    <!-- @COMPONENT: Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-primary-600">TechCraft Solutions</h1>
+                        <p class="text-xs text-gray-500">Visakhapatnam, India</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#services" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Services</a>
+                        <a href="#pricing" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Pricing</a>
+                        <a href="#portfolio" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Portfolio</a>
+                        <a href="#about" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">About</a>
+                        <a href="#contact" class="text-gray-700 hover:text-primary-600 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors">
+                        Book Free Consultation
+                    </a>
+                    <button class="md:hidden text-gray-700">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- @END_COMPONENT: Navigation -->
+
+    <!-- @COMPONENT: Hero Section -->
+    <section class="bg-gradient-to-br from-primary-50 to-white py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
+                <div class="lg:col-span-6">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight">
+                        Transform Your Business with 
+                        <span class="text-primary-600">Modern Digital Solutions</span>
+                    </h1>
+                    <p class="mt-6 text-xl text-gray-600 leading-relaxed">
+                        Expert Software Development, Web Applications, Mobile Apps, and Digital Marketing Solutions for Growing Brands in Visakhapatnam and Beyond
+                    </p>
+                    <p class="mt-4 text-lg text-gray-700">
+                        Ready to elevate your business? We deliver high-impact software solutions, websites, mobile apps, and digital marketing strategies for service-driven brands.
+                    </p>
+                    
+                    <div class="mt-8 flex flex-col sm:flex-row gap-4">
+                        <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center">
+                            <i class="fas fa-calendar-alt mr-2"></i>
+                            Book a Free Strategy Call
+                        </a>
+                        <a href="#portfolio" class="border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors inline-flex items-center justify-center">
+                            <i class="fas fa-eye mr-2"></i>
+                            View Our Work
+                        </a>
+                    </div>
+                    
+                    <div class="mt-8 flex items-center space-x-6 text-sm text-gray-500">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            200+ Projects Delivered
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-users text-green-500 mr-2"></i>
+                            100% Client Satisfaction
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-map-marker-alt text-green-500 mr-2"></i>
+                            Based in Visakhapatnam
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 lg:mt-0 lg:col-span-6">
+                    <!-- Modern software development illustration showing team collaboration -->
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                         alt="Professional software development team collaborating on modern technology solutions" 
+                         class="rounded-2xl shadow-2xl w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Hero Section -->
+
+    <!-- @COMPONENT: Services Overview -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Comprehensive Software Development Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    From custom software solutions to complete digital transformation, we're your trusted technology partner in Visakhapatnam
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gradient-to-br from-blue-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-blue-100">
+                    <div class="bg-primary-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-code text-primary-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Custom Software Development</h3>
+                    <p class="text-gray-600 mb-6">Solve business challenges with tailored CRM, automation, and data solutions designed for your unique workflow and requirements.</p>
+                    <a href="#contact" class="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        Discuss Your Project <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <div class="bg-gradient-to-br from-green-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-green-100">
+                    <div class="bg-green-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-globe text-green-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Web Development</h3>
+                    <p class="text-gray-600 mb-6">Professional websites, e-commerce platforms, and web applications built with modern technologies and optimized for performance.</p>
+                    <a href="#pricing" class="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        View Packages <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <div class="bg-gradient-to-br from-purple-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-purple-100">
+                    <div class="bg-purple-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-mobile-alt text-purple-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Mobile App Development</h3>
+                    <p class="text-gray-600 mb-6">Robust, scalable apps for iOS and Android built for performance and user experience. From idea to launch, we handle it all.</p>
+                    <a href="#contact" class="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        Request a Quote <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <div class="bg-gradient-to-br from-orange-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-orange-100">
+                    <div class="bg-orange-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-search text-orange-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">SEO & Digital Marketing</h3>
+                    <p class="text-gray-600 mb-6">Dominate search rankings with our proven SEO strategies and comprehensive digital marketing solutions for Visakhapatnam businesses.</p>
+                    <a href="#pricing" class="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        View SEO Packages <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <div class="bg-gradient-to-br from-pink-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-pink-100">
+                    <div class="bg-pink-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-share-alt text-pink-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Social Media Management</h3>
+                    <p class="text-gray-600 mb-6">Professional social media strategy, content creation, and management across all platforms to build your brand presence.</p>
+                    <a href="#pricing" class="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        Get Started <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+                
+                <div class="bg-gradient-to-br from-indigo-50 to-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow border border-indigo-100">
+                    <div class="bg-indigo-100 w-16 h-16 rounded-xl flex items-center justify-center mb-6">
+                        <i class="fas fa-tools text-indigo-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Support & Maintenance</h3>
+                    <p class="text-gray-600 mb-6">Ongoing technical support, website maintenance, hosting management, and performance optimization for your digital assets.</p>
+                    <a href="#contact" class="text-primary-600 font-semibold hover:text-primary-700 transition-colors">
+                        Learn More <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Services Overview -->
+
+    <!-- @COMPONENT: Pricing Section -->
+    <section id="pricing" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Transparent Pricing for Every Business</h2>
+                <p class="text-xl text-gray-600">Professional software development services with clear, upfront pricing</p>
+            </div>
+            
+            <!-- Website Development Packages -->
+            <div class="mb-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Website Development Packages</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
+                    
+                    <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-100 hover:border-primary-200 transition-colors">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Landing Page</h4>
+                            <div class="text-3xl font-bold text-primary-600 mb-4">₹8,000</div>
+                            <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>One scrollable page</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Lead capture form</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Mobile optimized</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Fast loading templates</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Basic SEO setup</li>
+                            </ul>
+                            <button class="w-full bg-primary-600 hover:bg-primary-700 text-white py-2 rounded-lg transition-colors">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-100 hover:border-primary-200 transition-colors">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Portfolio Website</h4>
+                            <div class="text-3xl font-bold text-primary-600 mb-4">₹11,000</div>
+                            <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>3-7 custom pages</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Professional gallery</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Testimonials section</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Contact form</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Responsive design</li>
+                            </ul>
+                            <button class="w-full bg-primary-600 hover:bg-primary-700 text-white py-2 rounded-lg transition-colors">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-primary-200 hover:border-primary-300 transition-colors relative">
+                        <div class="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                            <span class="bg-primary-600 text-white px-4 py-1 rounded-full text-sm font-semibold">Popular</span>
+                        </div>
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Business Website</h4>
+                            <div class="text-3xl font-bold text-primary-600 mb-4">₹14,000</div>
+                            <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>5-10 pages</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Premium theme</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>SEO optimization</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Analytics setup</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Security & live chat</li>
+                            </ul>
+                            <button class="w-full bg-primary-600 hover:bg-primary-700 text-white py-2 rounded-lg transition-colors">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-100 hover:border-primary-200 transition-colors">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">E-Commerce Website</h4>
+                            <div class="text-3xl font-bold text-primary-600 mb-4">₹21,000</div>
+                            <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Up to 50 products</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Payment gateway</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Order management</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Basic inventory</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>SSL security</li>
+                            </ul>
+                            <button class="w-full bg-primary-600 hover:bg-primary-700 text-white py-2 rounded-lg transition-colors">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-100 hover:border-primary-200 transition-colors">
+                        <div class="text-center">
+                            <h4 class="text-xl font-bold text-gray-900 mb-2">Custom Website</h4>
+                            <div class="text-3xl font-bold text-primary-600 mb-4">₹61,000</div>
+                            <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Advanced custom design</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Admin dashboard</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Dynamic content</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>API integrations</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Custom features</li>
+                            </ul>
+                            <button class="w-full bg-primary-600 hover:bg-primary-700 text-white py-2 rounded-lg transition-colors">
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SEO & Social Media Packages -->
+            <div class="grid lg:grid-cols-2 gap-12">
+                
+                <!-- SEO Packages -->
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">SEO Packages</h3>
+                    <div class="space-y-6">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-100">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-900">Basic SEO Setup</h4>
+                                    <p class="text-gray-600">One-time optimization</p>
+                                </div>
+                                <div class="text-2xl font-bold text-primary-600">₹3,500</div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Keyword research</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>On-page SEO optimization</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Google Search Console setup</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Basic local SEO for Visakhapatnam</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-primary-200">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-900">Advanced SEO</h4>
+                                    <p class="text-gray-600">Monthly management</p>
+                                </div>
+                                <div class="text-2xl font-bold text-primary-600">₹7,500/mo</div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>On-page + off-page SEO</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Monthly reporting</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Keyword ranking tracking</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Competitor analysis</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Local SEO optimization</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Social Media Management -->
+                <div>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Social Media Management</h3>
+                    <div class="space-y-6">
+                        <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-100">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-900">Profile Setup</h4>
+                                    <p class="text-gray-600">Per platform</p>
+                                </div>
+                                <div class="text-2xl font-bold text-primary-600">₹4,000</div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Professional setup</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Brand identity design</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Cover graphics creation</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>FB/IG/LinkedIn optimization</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white rounded-2xl shadow-lg p-6 border-2 border-primary-200">
+                            <div class="flex justify-between items-start mb-4">
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-900">Ongoing Management</h4>
+                                    <p class="text-gray-600">Per platform/month</p>
+                                </div>
+                                <div class="text-2xl font-bold text-primary-600">₹7,000/mo</div>
+                            </div>
+                            <ul class="text-sm text-gray-600 space-y-2">
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>8-12 posts per month</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Content creation & captions</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Scheduling & publishing</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Monthly analytics reporting</li>
+                                <li><i class="fas fa-check text-green-500 mr-2"></i>Community management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Add-ons Section -->
+            <div class="mt-16">
+                <h3 class="text-3xl font-bold text-gray-900 mb-8 text-center">Add-Ons & Extras</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                        <i class="fas fa-wrench text-primary-600 text-2xl mb-3"></i>
+                        <h4 class="font-semibold text-gray-900 mb-2">Website Maintenance</h4>
+                        <p class="text-primary-600 font-bold">₹8,000/month</p>
+                        <p class="text-sm text-gray-500">or ₹1,500/hour</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                        <i class="fas fa-server text-primary-600 text-2xl mb-3"></i>
+                        <h4 class="font-semibold text-gray-900 mb-2">Hosting</h4>
+                        <p class="text-primary-600 font-bold">₹3,000-₹8,000</p>
+                        <p class="text-sm text-gray-500">per year</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                        <i class="fas fa-globe text-primary-600 text-2xl mb-3"></i>
+                        <h4 class="font-semibold text-gray-900 mb-2">Domain Registration</h4>
+                        <p class="text-primary-600 font-bold">₹1,000</p>
+                        <p class="text-sm text-gray-500">per year</p>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-md text-center">
+                        <i class="fas fa-blog text-primary-600 text-2xl mb-3"></i>
+                        <h4 class="font-semibold text-gray-900 mb-2">Blog Setup</h4>
+                        <p class="text-primary-600 font-bold">₹2,500</p>
+                        <p class="text-sm text-gray-500">one-time</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Pricing Section -->
+
+    <!-- @COMPONENT: Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">Explore Our Results</h2>
+                <p class="text-xl text-gray-600">See real client successes in web development, app solutions, software integrations, SEO, and social media strategy</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <!-- Modern e-commerce website dashboard showing sales analytics and product management -->
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" 
+                         alt="E-commerce analytics dashboard showing sales growth and customer metrics" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">VizagMart E-commerce Platform</h3>
+                        <p class="text-gray-600 mb-4">Complete e-commerce solution with payment integration, inventory management, and analytics dashboard for a local Visakhapatnam retailer.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-tag mr-2"></i>
+                            E-commerce, Payment Gateway, Analytics
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <!-- Healthcare mobile app interface showing appointment booking and patient management -->
+                    <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" 
+                         alt="Healthcare mobile app interface with appointment booking and patient management features" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">HealthCare Plus Mobile App</h3>
+                        <p class="text-gray-600 mb-4">Patient management and appointment booking app for healthcare providers in Visakhapatnam with real-time notifications.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-mobile-alt mr-2"></i>
+                            iOS/Android, Healthcare, Real-time
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <!-- Professional business website showing company services and team -->
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" 
+                         alt="Professional business website design with modern layout and service showcase" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">TechnoVizag Corporate Website</h3>
+                        <p class="text-gray-600 mb-4">Professional corporate website with advanced SEO optimization, resulting in 300% increase in organic traffic for this Vizag-based company.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-search mr-2"></i>
+                            Corporate Website, SEO, Local Business
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <!-- Restaurant management software interface showing order processing -->
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" 
+                         alt="Restaurant management software showing order processing and inventory tracking dashboard" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">RestaurantPro Management System</h3>
+                        <p class="text-gray-600 mb-4">Custom restaurant management software with order processing, inventory tracking, and customer management for multiple Visakhapatnam restaurants.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-utensils mr-2"></i>
+                            Custom Software, Restaurant, Inventory
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <!-- Social media campaign dashboard showing engagement metrics -->
+                    <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" 
+                         alt="Social media analytics dashboard displaying engagement metrics and campaign performance" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Social Media Success Campaign</h3>
+                        <p class="text-gray-600 mb-4">Comprehensive social media management for a Visakhapatnam fashion brand, achieving 500% growth in followers and 200% increase in sales.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-share-alt mr-2"></i>
+                            Social Media, Fashion, Growth Marketing
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+                    <!-- Educational platform showing online learning interface -->
+                    <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=300" 
+                         alt="Online educational platform interface with course management and student progress tracking" 
+                         class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">EduVizag Learning Platform</h3>
+                        <p class="text-gray-600 mb-4">Complete learning management system for educational institutions in Visakhapatnam with video streaming, assessments, and progress tracking.</p>
+                        <div class="flex items-center text-sm text-gray-500">
+                            <i class="fas fa-graduation-cap mr-2"></i>
+                            Education, LMS, Video Streaming
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+                    Start Your Project Today
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Portfolio Section -->
+
+    <!-- @COMPONENT: About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-16 items-center">
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Your Partners in Digital Growth</h2>
+                    <p class="text-xl text-gray-600 mb-8">
+                        Our team is a blend of passionate developers, designers, and digital marketing experts dedicated to results and innovation. We're your partners in building long-term digital growth.
+                    </p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-primary-100 rounded-lg p-3 mr-4">
+                                <i class="fas fa-users text-primary-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Expert Team in Visakhapatnam</h3>
+                                <p class="text-gray-600">Local expertise with global standards. Our team understands the Vizag market and delivers world-class solutions.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-primary-100 rounded-lg p-3 mr-4">
+                                <i class="fas fa-rocket text-primary-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Innovation-Driven Approach</h3>
+                                <p class="text-gray-600">We stay ahead of technology trends to deliver cutting-edge solutions that give your business a competitive advantage.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-primary-100 rounded-lg p-3 mr-4">
+                                <i class="fas fa-handshake text-primary-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">Long-term Partnership</h3>
+                                <p class="text-gray-600">We don't just deliver projects – we build lasting relationships and continue supporting your digital journey.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 grid grid-cols-3 gap-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary-600">200+</div>
+                            <div class="text-sm text-gray-600">Projects Completed</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary-600">50+</div>
+                            <div class="text-sm text-gray-600">Happy Clients</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary-600">5+</div>
+                            <div class="text-sm text-gray-600">Years Experience</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-12 lg:mt-0">
+                    <!-- Professional software development team working together in modern office environment -->
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" 
+                         alt="Professional software development team collaborating in modern office setting" 
+                         class="rounded-2xl shadow-xl w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: About Section -->
+
+    <!-- @COMPONENT: Testimonials Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-gray-900 mb-4">What Our Clients Say</h2>
+                <p class="text-xl text-gray-600">Trusted by businesses across Visakhapatnam for exceptional software development services</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"TechCraft Solutions transformed our business with their excellent e-commerce platform. Sales increased by 250% within 6 months. Highly recommended for any business in Visakhapatnam!"</p>
+                    <div class="flex items-center">
+                        <!-- Professional business owner headshot -->
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100" 
+                             alt="Satisfied client testimonial from Visakhapatnam business owner" 
+                             class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold text-gray-900">Rajesh Kumar</div>
+                            <div class="text-sm text-gray-500">CEO, VizagMart</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"The mobile app they developed for our healthcare clinic has revolutionized how we manage patients. The team's expertise and local understanding made all the difference."</p>
+                    <div class="flex items-center">
+                        <!-- Professional healthcare provider headshot -->
+                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100" 
+                             alt="Healthcare professional testimonial for mobile app development" 
+                             class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold text-gray-900">Dr. Priya Sharma</div>
+                            <div class="text-sm text-gray-500">Director, HealthCare Plus</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-8 rounded-2xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"Their SEO services helped our restaurant business rank #1 for 'best restaurants in Visakhapatnam'. Our online orders have tripled! Excellent work and ongoing support."</p>
+                    <div class="flex items-center">
+                        <!-- Restaurant owner professional headshot -->
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=100&h=100" 
+                             alt="Restaurant owner testimonial for SEO services in Visakhapatnam" 
+                             class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <div class="font-semibold text-gray-900">Arjun Reddy</div>
+                            <div class="text-sm text-gray-500">Owner, Spice Garden Restaurant</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Testimonials Section -->
+
+    <!-- @COMPONENT: Contact Section -->
+    <section id="contact" class="py-20 bg-primary-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold text-white mb-4">Ready to Accelerate Your Digital Business?</h2>
+                <p class="text-xl text-primary-100">Contact us today to start a personalized strategy session and get a tailored quote</p>
+            </div>
+            
+            <div class="grid lg:grid-cols-2 gap-12">
+                <div class="bg-white rounded-2xl p-8 shadow-xl">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Get Your Free Consultation</h3>
+                    <form class="space-y-6" data-implementation="Contact form submission handling">
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Full Name</label>
+                                <input type="text" data-mock="true" placeholder="Enter your name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                                <input type="email" data-mock="true" placeholder="Enter your email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                                <input type="tel" data-mock="true" placeholder="+91 XXXXX XXXXX" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Service Interested In</label>
+                                <select data-mock="true" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                                    <option>Select a service</option>
+                                    <option>Custom Software Development</option>
+                                    <option>Web Development</option>
+                                    <option>Mobile App Development</option>
+                                    <option>SEO & Digital Marketing</option>
+                                    <option>Social Media Management</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Project Budget</label>
+                            <select data-mock="true" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                                <option>Select budget range</option>
+                                <option>₹5,000 - ₹15,000</option>
+                                <option>₹15,000 - ₹30,000</option>
+                                <option>₹30,000 - ₹60,000</option>
+                                <option>₹60,000+</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-2">Project Details</label>
+                            <textarea data-mock="true" rows="4" placeholder="Tell us about your project requirements..." class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"></textarea>
+                        </div>
+                        
+                        <button type="submit" data-event="click:handleFormSubmit" class="w-full bg-primary-600 hover:bg-primary-700 text-white py-4 rounded-lg text-lg font-semibold transition-colors">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            Book Free Strategy Call
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="text-white">
+                    <h3 class="text-2xl font-bold mb-8">Get in Touch</h3>
+                    
+                    <div class="space-y-6 mb-8">
+                        <div class="flex items-start">
+                            <div class="bg-primary-500 rounded-lg p-3 mr-4">
+                                <i class="fas fa-map-marker-alt text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Our Office</h4>
+                                <p class="text-primary-100">MVP Colony, Sector 7<br>Visakhapatnam, Andhra Pradesh 530017</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-primary-500 rounded-lg p-3 mr-4">
+                                <i class="fas fa-phone text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Call Us</h4>
+                                <p class="text-primary-100">+91 98XXX XXXXX<br>+91 89XXX XXXXX</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-primary-500 rounded-lg p-3 mr-4">
+                                <i class="fas fa-envelope text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Email Us</h4>
+                                <p class="text-primary-100">hello@techcraftvizag.com<br>projects@techcraftvizag.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-primary-500 rounded-lg p-3 mr-4">
+                                <i class="fas fa-clock text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-semibold mb-1">Business Hours</h4>
+                                <p class="text-primary-100">Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 9:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h4 class="font-semibold mb-4">Follow Us</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-primary-500 hover:bg-primary-400 p-3 rounded-lg transition-colors">
+                                <i class="fab fa-facebook-f text-white text-xl"></i>
+                            </a>
+                            <a href="#" class="bg-primary-500 hover:bg-primary-400 p-3 rounded-lg transition-colors">
+                                <i class="fab fa-twitter text-white text-xl"></i>
+                            </a>
+                            <a href="#" class="bg-primary-500 hover:bg-primary-400 p-3 rounded-lg transition-colors">
+                                <i class="fab fa-linkedin-in text-white text-xl"></i>
+                            </a>
+                            <a href="#" class="bg-primary-500 hover:bg-primary-400 p-3 rounded-lg transition-colors">
+                                <i class="fab fa-instagram text-white text-xl"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- @END_COMPONENT: Contact Section -->
+
+    <!-- @COMPONENT: Footer -->
+    <footer class="bg-secondary-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="lg:col-span-2">
+                    <h3 class="text-2xl font-bold mb-4">TechCraft Solutions</h3>
+                    <p class="text-gray-300 mb-6 max-w-md">Leading software development company in Visakhapatnam providing comprehensive digital solutions for modern businesses. Your trusted partner for web development, mobile apps, and digital marketing.</p>
+                    
+                    <div class="space-y-2 text-sm text-gray-300">
+                        <p>📍 MVP Colony, Sector 7, Visakhapatnam, AP 530017</p>
+                        <p>📞 +91 98XXX XXXXX | ✉️ hello@techcraftvizag.com</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Our Services</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#" class="hover:text-white transition-colors">Custom Software Development</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Web Development</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Mobile App Development</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">SEO & Digital Marketing</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Social Media Management</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Website Maintenance</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-300">
+                        <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#portfolio" class="hover:text-white transition-colors">Portfolio</a></li>
+                        <li><a href="#pricing" class="hover:text-white transition-colors">Pricing</a></li>
+                        <li><a href="#contact" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Career</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-300 text-sm">© 2024 TechCraft Solutions. All rights reserved. Proudly serving Visakhapatnam and beyond.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-300 hover:text-white text-sm transition-colors">Privacy Policy</a>
+                    <a href="#" class="text-gray-300 hover:text-white text-sm transition-colors">Terms of Service</a>
+                    <a href="#" class="text-gray-300 hover:text-white text-sm transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- @END_COMPONENT: Footer -->
+
+    <script>
+        (function() {
+            // Smooth scrolling for navigation links
+            const navLinks = document.querySelectorAll('a[href^="#"]');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Mobile menu toggle (placeholder for mobile menu functionality)
+            const mobileMenuButton = document.querySelector('.md\\:hidden button');
+            if (mobileMenuButton) {
+                mobileMenuButton.addEventListener('click', function() {
+                    // TODO: Implement mobile menu toggle functionality
+                    console.log('Mobile menu toggle clicked');
+                });
+            }
+
+            // Form submission handling (placeholder)
+            const contactForm = document.querySelector('form');
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    // TODO: Implement form validation and submission logic
+                    console.log('Contact form submitted');
+                    alert('Thank you for your inquiry! We will contact you within 24 hours.');
+                });
+            }
+
+            // Intersection Observer for animations (optional enhancement)
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Apply fade-in animation to sections
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(section);
+            });
+        })();
+    </script>
+</body>
+</html>

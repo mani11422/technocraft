@@ -1,0 +1,78 @@
+Here is a comprehensive, detailed prompt for your website aimed at marketing service-based web development, app development, software projects, SEO, and social media management—integrating all previous details, including structured pricing, solution-oriented content, and strong calls-to-action.
+
+Homepage Prompt
+Headline:
+"Transform Your Business with Modern Digital Solutions"
+
+Subheading:
+"Expert Web Development, App Creation, Software Projects, SEO, and Social Media Management for Growing Brands"
+
+Primary Call to Action:
+"Book a Free Strategy Call"
+
+Hero Section (Above the Fold)
+"Ready to elevate your business? We deliver high-impact websites, mobile apps, software solutions, and digital marketing strategies for service-driven brands. Partner with us to build lasting digital success."
+
+Services & Pricing Section
+Website Development Packages
+Website Type	Price (INR)	Key Features
+Landing Page	₹8,000	One scrollable page, lead form, mobile-optimized, fast templates
+Portfolio Website	₹11,000	3–7 custom pages, gallery, testimonials, contact form
+Business Website	₹14,000	5–10 pages, premium theme, SEO setup, analytics, security, live chat
+E-Commerce Website	₹21,000	Up to 50 products, payment gateway, order reports, basic inventory
+Custom Website	₹61,000	Advanced custom design, admin dashboard, dynamic content, API integrations
+App Development
+"Get robust, scalable apps for iOS and Android—built for performance and user experience. From idea to launch, we handle the full cycle."
+Call to Action: Request a Quote
+
+Software Projects
+"Solve business challenges with custom software. We create tailored CRM, automation, and data solutions for your unique workflow."
+Call to Action: Discuss Your Project
+
+SEO Packages
+Package Type	Price (INR)	Details
+Basic Setup	₹3,500 (one-time)	Keyword research, on-page SEO, Search Console
+Advanced SEO	₹7,500/month	On-page + off-page, reporting, keyword tracking
+Social Media Management
+Service	Price (INR)	Features
+Profile Creation (Setup)	₹4,000/platform	Setup, branding, cover graphics for FB/IG/LinkedIn
+Ongoing Management	₹7,000/month/platform	8–12 posts/month, captions, scheduling, reporting
+Add-Ons & Extras
+Website Maintenance: ₹8,000/month or ₹1,500/hour
+
+Hosting: ₹3,000–₹8,000/year
+
+Domain: ₹1,000/year
+
+Blog: ₹2,500
+
+Newsletter Integration: ₹1,500
+
+Google Business Profile: ₹2,000
+
+Extra Language: from ₹3,000/language
+
+About Us Prompt
+"Our team is a blend of passionate developers, designers, and digital marketing experts dedicated to results and innovation. We’re your partners in building long-term digital growth."
+
+Portfolio Section Prompt
+"Explore our results:
+See real client successes in web development, app solutions, software integrations, SEO, and social media strategy."
+
+Contact Section Prompt
+"Ready to accelerate your digital business?
+Contact us today to start a personalized strategy session and get a tailored quote."
+
+Calls to Action (use across all key pages)
+Book a Free Strategy Call
+
+Request a Custom Quote
+
+Start Your Project
+
+SEO-Friendly Page & Section Prompts
+“Looking for a reliable digital agency for your website or app?”
+
+“Want to dominate search rankings or manage your brand across social media?”
+
+“Full-service web, app, and marketing for service providers.”
